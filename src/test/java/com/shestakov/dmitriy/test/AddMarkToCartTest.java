@@ -50,7 +50,7 @@ public class AddMarkToCartTest extends AddMarkToCartBase {
     @Owner("shestakovdyu")
     @Severity(SeverityLevel.BLOCKER)
     @Link(value = "Testing", url = "https://market.evotor.ru/store/apps/e7e1a9af-d0ad-4dec-97ce-8b27805c145d#section-tariff")
-    @DisplayName("Добавление подписки с несколькокими терминалами")
+    @DisplayName("Добавление подписки с несколькими терминалами")
     void addToCartSeveralTerminals() {
         addMarkToCartPage.openPage()
                 .verifySubscriptionExisting()
