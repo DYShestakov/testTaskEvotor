@@ -23,7 +23,7 @@
 ![screenshot](images/Screenshot_1.png)
 #### *3. Дождаться окончания выполнения тестов*
 ![screenshot](images/Screenshot_2.png)
-#### *3. Сформировать Allure отчета о тестировании*
+#### *3. Сформировать Allure отчет о тестировании*
 ![screenshot](images/Screenshot_3.png)
 ![screenshot](images/Screenshot_4.png)
 
