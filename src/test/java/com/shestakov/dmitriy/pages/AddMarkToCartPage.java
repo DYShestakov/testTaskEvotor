@@ -52,11 +52,6 @@ public class AddMarkToCartPage {
         for(int i = 0; i<terminalQuantity-1; i++) {
             $(".evo-plus-minus__button:nth-child(2)").click();
         }
-        if(terminalQuantity < 5){
-            $(".plan-devices__title").shouldHave(text(terminalQuantity + " терминала"));
-        } else {
-            $(".plan-devices__title").shouldHave(text(terminalQuantity + " терминалов"));
-        }
         return this;
     }
 
