@@ -20,8 +20,7 @@ public class AddMarkToCartTest extends AddMarkToCartBase {
     @Link(value = "Testing", url = "https://market.evotor.ru/store/apps/e7e1a9af-d0ad-4dec-97ce-8b27805c145d#section-tariff")
     @DisplayName("Добавление подписки в корзину и открытие корзины через значок корзины")
     void AddToCartOpenCartByIcon() throws InterruptedException {
-        open("/store/apps/e7e1a9af-d0ad-4dec-97ce-8b27805c145d");
-        addMarkToCartPage
+        addMarkToCartPage.openPage()
                 .verifySubscriptionExisting()
                 .addToCart()
                 .openTheCartIcon()
