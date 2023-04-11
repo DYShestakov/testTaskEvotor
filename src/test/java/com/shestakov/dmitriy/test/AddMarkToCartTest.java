@@ -6,7 +6,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.open;
-import static java.lang.Thread.sleep;
 
 @Feature("Товар в корзине")
 public class AddMarkToCartTest extends AddMarkToCartBase {
@@ -22,7 +21,6 @@ public class AddMarkToCartTest extends AddMarkToCartBase {
     @DisplayName("Добавление подписки в корзину и открытие корзины через значок корзины")
     void AddToCartOpenCartByIcon() throws InterruptedException {
         open("/store/apps/e7e1a9af-d0ad-4dec-97ce-8b27805c145d");
-        sleep(5000);
         addMarkToCartPage
                 .verifySubscriptionExisting()
                 .addToCart()
